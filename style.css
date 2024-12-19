@@ -63,10 +63,6 @@ a {
   color: var(--foreground-color);
 }
 
-table {
-  font-family: "Galdeano";
-}
-
 td:first-child {
   text-transform: lowercase;
 }
