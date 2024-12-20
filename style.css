@@ -28,6 +28,10 @@ body {
   align-items: center;
 }
 
+main {
+  overflow-wrap: anywhere;
+}
+
 header {
   display: flex;
   flex-direction: column;
