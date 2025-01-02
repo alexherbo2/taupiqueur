@@ -419,6 +419,7 @@ const videoSources = [
   "instagram_CzvXrK-r7OC.mp4",
   "instagram_CzwMdKKsdkK.mp4",
   "instagram_Czy3NgEItrA.mp4",
+  "instagram_DA2EXoEpmop.mp4",
   "instagram_DA3okUiObj3.mp4",
   "instagram_DA55liqyMr7.mp4",
   "instagram_DA5sQPQISvw.mp4",
@@ -449,6 +450,7 @@ const videoSources = [
   "instagram_DAjv8etuAqc.mp4",
   "instagram_DB-gzbQJ-_p.mp4",
   "instagram_DB3vAObIF5h.mp4",
+  "instagram_DB65A9uM3pq.mp4",
   "instagram_DB72w7xRRFh.mp4",
   "instagram_DB9OOnfMcKl.mp4",
   "instagram_DBA3eN5pIRn.mp4",
@@ -481,6 +483,8 @@ const videoSources = [
   "instagram_DCnWlKbyl8p.mp4",
   "instagram_DCuf0S_hWex.mp4",
   "instagram_DCwEmrCILRY.mp4",
+  "instagram_DD5BYgsoBix.mp4",
+  "instagram_DD5Bej4z_mp.mp4",
   "instagram_DDDPIRfNjvi.mp4",
   "instagram_DDHZYSQtjAO.mp4",
   "instagram_DDHrobDIDpX.mp4",
@@ -490,10 +494,19 @@ const videoSources = [
   "instagram_DDO7ddeuPKN.mp4",
   "instagram_DDT4If2TZ9j.mp4",
   "instagram_DDfufa5Nz4k.mp4",
+  "instagram_DDhOin2if8O.mp4",
+  "instagram_DDkBkcrv91P.mp4",
+  "instagram_DDnngdGtUee.mp4",
+  "instagram_DDpciUko5sN.mp4",
+  "instagram_DDuRNfOolMs.mp4",
+  "instagram_DDyOxE9pYU5.mp4",
+  "instagram_DECI-9HvBcg.mp4",
+  "instagram_DEFAIzWRoIv.mp4",
 ]
 
 const videoElement = document.querySelector('video')
 const videoSourceElement = document.querySelector('video source')
+const videoAnchorElement = document.querySelector('a')
 
 function playNextVideo() {
   const videoInfo = videoSources[
@@ -502,6 +515,8 @@ function playNextVideo() {
     )
   ]
   videoSourceElement.src = videoInfo
+  videoAnchorElement.href = videoInfo
+  videoAnchorElement.textContent = videoInfo
   videoElement.load()
   videoElement.play()
 }
