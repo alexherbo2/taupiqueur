@@ -1,11 +1,23 @@
+html {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  place-items: safe center;
+  background-color: skyblue;
+}
+
 body {
+  margin: auto;
+  padding: 0.5rem 1rem;
+  background-color: white;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 18px;
   line-height: 1.4;
   display: grid;
   grid-template: "header footer" "main main";
   gap: 0.5rem 0;
-  place-self: center;
+  text-wrap: nowrap;
 }
 
 header {
