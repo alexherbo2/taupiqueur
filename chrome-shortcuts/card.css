@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   width: 100%;
   height: 100%;
@@ -36,10 +41,16 @@ header img {
 
 main {
   grid-area: main;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem 0;
+  padding: 0.5rem 0;
 }
 
 footer {
   grid-area: footer;
+  display: flex;
+  flex-direction: column;
   place-self: start end;
 }
 
@@ -53,10 +64,6 @@ h1 {
   font-size: 1.5rem;
   letter-spacing: 0.11em;
   text-transform: uppercase;
-}
-
-h1, p {
-  margin-block: 0.5rem;
 }
 
 a {
