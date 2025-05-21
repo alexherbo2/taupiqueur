@@ -1,16 +1,19 @@
 html {
+  width: 100%;
+  height: 100%;
+  background-color: skyblue;
+  color: black;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 100%;
   place-items: safe center;
-  background-color: skyblue;
+  place-content: safe center;
 }
 
 body {
-  margin: auto;
+  margin: 0;
   padding: 0.5rem 1rem;
   background-color: white;
+  color: black;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 18px;
   line-height: 1.4;
@@ -44,15 +47,12 @@ footer img {
   width: 128px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
   font-family: "Galdeano", sans-serif;
   font-weight: normal;
+  font-size: 1.5rem;
   letter-spacing: 0.11em;
   text-transform: uppercase;
-}
-
-h1 {
-  font-size: 1.5rem;
 }
 
 h1, p {
