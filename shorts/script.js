@@ -587,6 +587,22 @@ const videoSources = [
   "instagram_DI_XwUWMhlf.mp4",
   "instagram_DKIUTTIOUkC.mp4",
   "instagram_DDD7ou1SrSV.mp4",
+  "instagram_DEzZUteSQw7.mp4",
+  "instagram_DHPNTB8Sajc.mp4",
+  "instagram_DI5rTX-svnr.mp4",
+  "instagram_DJ9aS_IR4YR.mp4",
+  "instagram_DK-QLhyyBpW.mp4",
+  "instagram_DK1n2zYxzcK.mp4",
+  "instagram_DK1sQujsRWn.mp4",
+  "instagram_DKDk-56tNN-.mp4",
+  "instagram_DKbyAZ_vwR-.mp4",
+  "instagram_DLEEkVYs3bM.mp4",
+  "instagram_DLIEa1XxNkF.mp4",
+  "instagram_DLKdT6SJzwV.mp4",
+  "instagram_DLNqgDysTYs.mp4",
+  "instagram_DLRRULqM8I3.mp4",
+  "instagram_DLTAFUpId0U.mp4",
+  "instagram_DLYPEDnBXEU.mp4",
 ]
 
 const videoElement = document.querySelector('video')
