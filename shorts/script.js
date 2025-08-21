@@ -655,6 +655,10 @@ const videoSources = [
   "instagram_DNCo1yYgrIW.mp4",
   "instagram_DNF-JFxxXeL.mp4",
   "instagram_DNNGBTUOIFI.mp4",
+  "instagram_DG6FXGkSNu5.mp4",
+  "instagram_DM9zNRfyIj6.mp4",
+  "instagram_DNVXJWdSp2P.mp4",
+  "instagram_DNjY71bSrqi.mp4",
 ]
 
 const videoElement = document.querySelector('video')
